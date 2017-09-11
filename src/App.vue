@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import home from './modules/home/Home'
+import home from './modules/info/TopHeader.vue'
 export default {
   data () {
     return {
