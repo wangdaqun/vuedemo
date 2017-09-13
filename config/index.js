@@ -22,7 +22,7 @@ module.exports = {
     port: 8000,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {
+    proxyTable: {},
       // '/ssc-webapp': {
       //   target: 'http://localhost:8080/',
       //   changeOrigin: true,
@@ -30,7 +30,7 @@ module.exports = {
       //     '^/ssc-webapp': '/ssc-webapp'
       //   }
       // }
-    },
+    // },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README
     // (https://github.com/webpack/css-loader#sourcemaps)

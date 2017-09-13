@@ -17,6 +17,12 @@
       </tbody>
     </table>
   </div>
+  <div>
+    <p>
+      <router-link to="/f">Go to Foo</router-link>
+    </p>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
